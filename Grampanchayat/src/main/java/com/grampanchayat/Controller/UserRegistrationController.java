@@ -45,7 +45,7 @@ public class UserRegistrationController {
 	}
 //		
 	@GetMapping("{aadharNumber}")
-	public ResponseEntity<UserRegistration> getsingleuser(@PathVariable("aadharNumber") String userId)
+	public ResponseEntity<UserRegistration> getsingleuser(@PathVariable("aadharNumber") Long userId)
 	{
 		UserRegistration userRegistration =userRegisterdService.getUserById(userId);
 		 

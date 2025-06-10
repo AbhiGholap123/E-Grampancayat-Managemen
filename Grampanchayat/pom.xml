@@ -78,7 +78,12 @@
 			<version>5.0.7.Final</version>
 		</dependency>-->
 
-	
+		<dependency>
+			<groupId>com.boot.api</groupId>
+			<artifactId>Book_crud_op</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 	</dependencies>
 
 

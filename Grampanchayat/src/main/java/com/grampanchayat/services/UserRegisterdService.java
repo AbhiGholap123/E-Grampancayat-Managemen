@@ -73,7 +73,7 @@ public class UserRegisterdService {
 	}
 
 
-	public UserRegistration getUserById(String userId) {
+	public UserRegistration getUserById(Long userId) {
 			Optional<UserRegistration> optionalUser = userRegistrationRepo.findById(userId);
 			return optionalUser.get();
 		}

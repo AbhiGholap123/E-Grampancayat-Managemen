@@ -15,21 +15,6 @@ public class AuthRequest {
 	
 	private String aadharNumber; 
     private String password;
-	public String getAadharNumber() {
-		return aadharNumber;
-	}
-	public void setAadharNumber(String aadharNumber) {
-		this.aadharNumber = aadharNumber;
-	}
-	public String getPassword() {
-		return password;
-	}
-	public void setPassword(String password) {
-		this.password = password;
-	}
-    
-    
-    
     
     
 }

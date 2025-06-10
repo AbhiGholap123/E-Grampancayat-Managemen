@@ -26,30 +26,6 @@ public class DocumentInfo {
 	
 	@Column(name="document_status")
 	private String documentStatus;
-
-	public Long getDocumentId() {
-		return documentId;
-	}
-
-	public void setDocumentId(Long documentId) {
-		this.documentId = documentId;
-	}
-
-	public String getDocumentName() {
-		return documentName;
-	}
-
-	public void setDocumentName(String documentName) {
-		this.documentName = documentName;
-	}
-
-	public String getDocumentStatus() {
-		return documentStatus;
-	}
-
-	public void setDocumentStatus(String documentStatus) {
-		this.documentStatus = documentStatus;
-	}
 	
 
 

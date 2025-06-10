@@ -11,7 +11,7 @@ import com.grampanchayat.entity.UserRegistration;
 import com.grampanchayat.entity.UserRegistrationModel;
 
 @Repository
-public interface UserRegistrationRepo extends JpaRepository<UserRegistration, String>{
+public interface UserRegistrationRepo extends JpaRepository<UserRegistration, Long>{
 	
 	boolean existsByAadharNumber(String aadharNumber);
 	
